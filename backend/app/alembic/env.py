@@ -22,7 +22,7 @@ fileConfig(config.config_file_name)
 from sqlmodel import SQLModel
 
 from app.core.config import settings # noqa
-from app.models import Item, User  # noqa  # register table models with SQLModel metadata
+from app.models import FarmField, Item, User  # noqa  # register table models with SQLModel metadata
 
 target_metadata = SQLModel.metadata
 

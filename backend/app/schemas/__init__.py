@@ -1,4 +1,11 @@
 from app.schemas.common import Message
+from app.schemas.field import (
+    FarmFieldBase,
+    FarmFieldCreate,
+    FarmFieldPublic,
+    FarmFieldsPublic,
+    FarmFieldUpdate,
+)
 from app.schemas.item import (
     ItemBase,
     ItemCreate,
@@ -19,6 +26,11 @@ from app.schemas.user import (
 )
 
 __all__ = [
+    "FarmFieldBase",
+    "FarmFieldCreate",
+    "FarmFieldPublic",
+    "FarmFieldUpdate",
+    "FarmFieldsPublic",
     "ItemBase",
     "ItemCreate",
     "ItemPublic",
@@ -37,3 +49,4 @@ __all__ = [
     "UserUpdate",
     "UserUpdateMe",
 ]
+

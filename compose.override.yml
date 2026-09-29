@@ -61,6 +61,7 @@ services:
             - ./frontend/test-results
     # TODO: remove once coverage is done locally
     volumes:
+      - ./backend:/app/backend
       - ./backend/htmlcov:/app/backend/htmlcov
     environment:
       FASTAPI_ENV: "development"

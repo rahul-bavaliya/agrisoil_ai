@@ -1,6 +1,7 @@
 .vscode/*
 !.vscode/extensions.json
 node_modules/
+.freebuff/
 backend/app/frontend/
 /test-results/
 /playwright-report/
